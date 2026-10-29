@@ -21,7 +21,7 @@ def processar():
             else None
         )
         nome, rank = limpar_nome(original)
-
+adjasocasifhweocsocdjasocdasjo
         if not nome:
             continue
 
@@ -31,7 +31,7 @@ def processar():
         existentes = listar_existentes(pasta_destino)
 
         if len(existentes) >= config.IMAGENS_POR_ESPECIE:
-            print("já possui fotos suficientes no disco, pulando.")
+            print("já possui fotos suficientes no disco, pulando")
             concluidas += 1
             continue
 
@@ -54,7 +54,7 @@ def processar():
         concluidas += 1
 
     print("\n===== RESUMO DA EXECUÇÃO =====")
-    print(f"Concluídas com sucesso: {concluidas}/{len(df)}")
+    print(f"Concluídas: {concluidas}/{len(df)}")
     print(f"Táxon não encontrado ({len(nao_encontradas)}): {nao_encontradas}")
     print(f"Sem fotos ({len(sem_fotos)}): {sem_fotos}")
 
