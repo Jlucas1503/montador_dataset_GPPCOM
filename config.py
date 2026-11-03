@@ -1,9 +1,9 @@
 from pathlib import Path
 
 # Caminhos de Arquivos e Diretorios
-BASE_DIR = Path(__file__).resolve().parent
-CSV_PATH = Path("C:/Users/j1503/OneDrive/Documentos/GPPCOM_dataset/imagens_dataset/fauna_parque_das_dunas_reduzido_v2.csv")
-PASTA_SAIDA_DIR = Path("C:/Users/j1503/OneDrive/Documentos/GPPCOM_dataset/imagens_dataset")
+BASE_DIR = Path(__file__).resolve().parent ### PASTA ATUAL DO PROJETO
+CSV_PATH = BASE_DIR / "fauna_parque_das_dunas_reduzido_v2.csv" ## Substitua pelo caminho do seu arquivo CSV
+PASTA_SAIDA_DIR = BASE_DIR / "imagens_dataset"
 
 # Nomes das Colunas no CSV
 COL_ESPECIE = "Espécie"
@@ -11,10 +11,10 @@ COL_CATEGORIA = "Categoria"  # Defina como None se não houver categorias no CSV
 
 # Filtros e Limites
 CATEGORIAS = ["Mamíferos"]  # Exemplo: ["Aves"] ou None para todas
-LIMITE_ESPECIES = 20  # None para processar todas do CSV
+LIMITE_ESPECIES = None  # None para processar todas do CSV
 
 # Configurações do iNaturalist
-IMAGENS_POR_ESPECIE = 1000
+IMAGENS_POR_ESPECIE = 350
 TAMANHO = "large"  # square | small | medium | large | original
 LICENCAS = "cc0,cc-by,cc-by-nc,cc-by-sa,cc-by-nc-sa"
 SO_GRAU_PESQUISA = True

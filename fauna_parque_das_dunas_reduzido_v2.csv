@@ -1,0 +1,125 @@
+﻿Categoria,Grupo,Ordem,Família,Espécie,Nome popular,Status
+Anfíbios,Amphibia,Anura,Bufonidae,Rhinella sp.,sapo,IN
+Anfíbios,Amphibia,Anura,Hylidae,"Scinax x-signatus (Spix, 1824)",perereca,C
+Anfíbios,Amphibia,Anura,Leptodactylidae,"Leptodactylus troglodytes A. Lutz, 1926",caçote,C
+Répteis,Reptilia,Squamata,Gekkonidae,"Hemidactylus brasiliannus (Amaral, 1935)",briba,C
+Répteis,Reptilia,Squamata,Gekkonidae,"Hemidactylus mabouia (Moreau de Jonnès, 1818)",briba,C
+Répteis,Reptilia,Squamata,Sphaerodactylidae,"Coleodactylus natalensis Freire, 1999",lagartinho-do-folhiço,C
+Répteis,Reptilia,Squamata,Phyllodactylidae,"Gymnodactylus darwinii (Gray, 1845)",lagarto,C
+Répteis,Reptilia,Squamata,Phyllodactylidae,"Gymnodactylus geckoides Spix, 1825",lagarto,C
+Répteis,Reptilia,Squamata,Gymnophtalmidae,"Dryadosaura nordestina Rodrigues, Freire, Pellegrino & Sites-Jr, 2005",briba cabeçuda,R
+Répteis,Reptilia,Squamata,Gymnophtalmidae,"Micrablepharus maximiliani (Reinhardt & Lütken, 1862)",lagarto de cauda azul,C
+Répteis,Reptilia,Squamata,Iguanidae,"Iguana iguana (Linnaeus, 1758)",iguana,C
+Répteis,Reptilia,Squamata,Mabuidae,"Brasiliscincus heathi (Schmidt e Inger, 1951)",briba,IN
+Répteis,Reptilia,Squamata,Teiidae,"Ameiva ameiva (Linnaeus, 1758)",bico doce,C
+Répteis,Reptilia,Squamata,Teiidae,"Ameivula ocellifera (Spix, 1825)",calanguinho,C
+Répteis,Reptilia,Squamata,Teiidae,"Salvator merianae (Duméril & Bibron, 1839)",teju,C
+Répteis,Reptilia,Squamata,Tropiduridae,"Tropidurus hispidus Spix, 1825",lagartixa,C
+Répteis,Reptilia,Squamata (Amphisbaenia),Amphisbaenidae,"Amphisbaena heathi Schmidt, 1936",cobra de duas cabeças,IN
+Répteis,Reptilia,Squamata,Boidae,"Epicrates cenchria Linnaeus, 1758",salamanta,R
+Répteis,Reptilia,Squamata,Colubridae,"Spilotes pullatus (Linnaeus, 1758)",caninana,IN
+Répteis,Reptilia,Squamata,Dipsadidae,"Philodryas nattereri Steindachner, 1870",corre campo,C
+Répteis,Reptilia,Squamata,Dipsadidae,"Taeniophallus occipitalis (Jan, 1863)",serpente,IN
+Aves,Aves,Tinamiformes,Tinamidae,"Crypturellus parvirostris (Wagler, 1827)",inhambu-chororó,IN
+Aves,Aves,Galliformes,Cracidae,"Ortalis araucuan (Spix, 1825)",aracuã,C
+Aves,Aves,Galliformes,Cracidae,"Penelope superciliaris Temminck, 1815",jacupemba,C
+Aves,Aves,Cathartiformes,Cathartidae,"Cathartes aura (Linnaeus, 1758)",urubu-de-cabeça-vermelha,C
+Aves,Aves,Cathartiformes,Cathartidae,"Cathartes burrovianus Cassin, 1845",urubu-de-cabeça-amarela,C
+Aves,Aves,Cathartiformes,Cathartidae,"Coragyps atratus (Bechstein, 1793)",urubu-de-cabeça-preta,C
+Aves,Aves,Accipitriformes,Accipitridae,"Rupornis magnirostris (Gmelin, 1788)",gavião-carijó,C
+Aves,Aves,Accipitriformes,Accipitridae,"Buteo brachyurus Vieillot, 1816",gavião-de-cauda-curta,C
+Aves,Aves,Falconiformes,Falconidae,"Caracara plancus (Miller, 1777)",caracará,C
+Aves,Aves,Falconiformes,Falconidae,"Falco sparverius Linnaeus, 1758",quiriquiri,IN
+Aves,Aves,Charadriiformes,Charadriidae,"Vanellus chilensis (Molina, 1782)",quero-quero,C
+Aves,Aves,Charadriiformes,Scolopacidae,"Gallinago paraguaiae (Vieillot, 1816)",narceja,DI
+Aves,Aves,Columbiformes,Columbidae,"Columbina passerina (Linnaeus, 1758)",rolinha-cinzenta,C
+Aves,Aves,Columbiformes,Columbidae,"Columbina minuta (Linnaeus, 1766)",rolinha-de-asa-canela,C
+Aves,Aves,Columbiformes,Columbidae,"Columbina talpacoti (Temminck, 1811)",rolinha-roxa,C
+Aves,Aves,Columbiformes,Columbidae,"Columbina picui (Temminck, 1813)",rolinha-picui,C
+Aves,Aves,Columbiformes,Columbidae,"Columba livia Gmelin, 1789",pombo-doméstico,C
+Aves,Aves,Columbiformes,Columbidae,"Leptotila verreauxi Bonaparte, 1855",juriti-pupu,C
+Aves,Aves,Psittaciformes,Psittacidae,"Forpus xanthopterygius (Spix, 1824)",tuim,C
+Aves,Aves,Cuculiformes,Cuculidae,"Piaya cayana (Linnaeus, 1766)",alma-de-gato,C
+Aves,Aves,Cuculiformes,Cuculidae,"Crotophaga ani Linnaeus, 1758",anu-preto,C
+Aves,Aves,Cuculiformes,Cuculidae,"Guira guira (Gmelin, 1788)",anu-branco,C
+Aves,Aves,Cuculiformes,Cuculidae,"Tapera naevia (Linnaeus, 1766)",saci,DI
+Aves,Aves,Strigiformes,Strigidae,"Athene cunicularia (Molina, 1782)",coruja-buraqueira,C
+Aves,Aves,Caprimulgiformes,Caprimulgidae,"Antrostomus rufus (Boddaert, 1783)",joão-corta-pau,C
+Aves,Aves,Caprimulgiformes,Caprimulgidae,"Hydropsalis albicollis (Gmelin, 1789)",bacurau,C
+Aves,Aves,Caprimulgiformes,Caprimulgidae,"Hydropsalis parvula (Gould, 1837)",bacurau-chintã,IN
+Aves,Aves,Caprimulgiformes,Caprimulgidae,"Hydropsalis torquata (Gmelin, 1789)",bacurau-tesoura,C
+Aves,Aves,Apodiformes,Trochilidae,"Phaethornis ruber (Linnaeus, 1758)",rabo-branco-rubro,C
+Aves,Aves,Apodiformes,Trochilidae,"Eupetomena macroura (Gmelin, 1788)",beija-flor-tesoura,C
+Aves,Aves,Apodiformes,Trochilidae,"Chlorostilbon lucidus (Shaw, 1812)",besourinho-de-bico-vermelho,C
+Aves,Aves,Apodiformes,Trochilidae,"Amazilia leucogaster (Gmelin, 1788)",beija-flor-de-barriga-branca,C
+Aves,Aves,Apodiformes,Trochilidae,"Amazilia fimbriata (Gmelin, 1788)",beija-flor-de-garganta-verde,C
+Aves,Aves,Galbuliformes,Galbulidae,"Galbula ruficauda Cuvier, 1816",ariramba-de-cauda-ruiva,C
+Aves,Aves,Galbuliformes,Bucconidae,"Nystalus maculatus (Gmelin, 1788)",rapazinho-dos-velhos,C
+Aves,Aves,Piciformes,Picidae,"Veniliornis passerinus (Linnaeus, 1766)",picapauzinho-anão,DI
+Aves,Aves,Passeriformes,Thamnophilidae,"Formicivora grisea (Boddaert, 1783)",papa-formiga-pardo,C
+Aves,Aves,Passeriformes,Thamnophilidae,"Herpsilochmus sellowi Whitney & Pacheco, 2000",chorozinho-da-caatinga,C
+Aves,Aves,Passeriformes,Thamnophilidae,"Herpsilochmus pectoralis Sclater, 1857",chorozinho-de-papo-preto,C
+Aves,Aves,Passeriformes,Thamnophilidae,"Thamnophilus capistratus Lesson, 1840",choca-barrada-do-nordeste,C
+Aves,Aves,Passeriformes,Thamnophilidae,"Thamnophilus torquatus Swainson, 1825",choca-de-asa-vermelha,C
+Aves,Aves,Passeriformes,Thamnophilidae,"Taraba major (Vieillot, 1816)",choró-boi,C
+Aves,Aves,Passeriformes,Furnariidae,"Synallaxis scutata Sclater, 1859",estrelinha-preta,C
+Aves,Aves,Passeriformes,Pipridae,"Neopelma pallescens (Lafresnaye, 1853)",fruxu-do-cerradão,IN
+Aves,Aves,Passeriformes,Rhynchocyclidae,"Tolmomyias flaviventris (Wied, 1831)",bico-chato-amarelo,C
+Aves,Aves,Passeriformes,Rhynchocyclidae,"Todirostrum cinereum (Linnaeus, 1766)",ferreirinho-relógio,C
+Aves,Aves,Passeriformes,Rhynchocyclidae,"Hemitriccus margaritaceiventer (d'Orbigny & Lafresnaye, 1837)",sebinho-de-olho-de-ouro,C
+Aves,Aves,Passeriformes,Tyrannidae,"Camptostoma obsoletum (Temminck, 1824)",risadinha,C
+Aves,Aves,Passeriformes,Tyrannidae,"Elaenia flavogaster (Thunberg, 1822)",guaracava-de-barriga-amarela,C
+Aves,Aves,Passeriformes,Tyrannidae,"Elaenia cristata Pelzeln, 1868",guaracava-de-topete-uniforme,C
+Aves,Aves,Passeriformes,Tyrannidae,"Phaeomyias murina (Spix, 1825)",bagageiro,C
+Aves,Aves,Passeriformes,Tyrannidae,"Myiarchus ferox (Gmelin, 1789)",maria-cavaleira,C
+Aves,Aves,Passeriformes,Tyrannidae,"Myiarchus tyrannulus (Statius Muller, 1776)",maria-cavaleira-de-rabo-enferrujado,IN
+Aves,Aves,Passeriformes,Tyrannidae,"Pitangus sulphuratus (Linnaeus, 1766)",bem-te-vi,C
+Aves,Aves,Passeriformes,Tyrannidae,"Machetornis rixosa (Vieillot, 1819)",suiriri-cavaleiro,C
+Aves,Aves,Passeriformes,Tyrannidae,"Myiozetetes similis (Spix, 1825)",bentevizinho-de-penacho-vermelho,C
+Aves,Aves,Passeriformes,Tyrannidae,"Tyrannus melancholicus Vieillot, 1819",suiriri,C
+Aves,Aves,Passeriformes,Tyrannidae,"Fluvicola nengeta (Linnaeus, 1766)",lavadeira-mascarada,C
+Aves,Aves,Passeriformes,Vireonidae,"Cyclarhis gujanensis (Gmelin, 1789)",pitiguari,C
+Aves,Aves,Passeriformes,Vireonidae,"Vireo chivi (Vieillot, 1817)",juruviara,C
+Aves,Aves,Passeriformes,Vireonidae,"Hylophilus amaurocephalus (Nordmann, 1835)",vite-vite-de-olho-cinza,C
+Aves,Aves,Passeriformes,Corvidae,"Cyanocorax cyanopogon (Wied, 1821)",gralha-cancã,C
+Aves,Aves,Passeriformes,Hirundinidae,"Progne chalybea (Gmelin, 1789)",andorinha-doméstica-grande,C
+Aves,Aves,Passeriformes,Hirundinidae,"Tachycineta albiventer (Boddaert, 1783)",andorinha-do-rio,IN
+Aves,Aves,Passeriformes,Troglodytidae,"Troglodytes musculus Naumann, 1823",corruíra,C
+Aves,Aves,Passeriformes,Troglodytidae,"Cantorchilus longirostris (Vieillot, 1819)",garrinchão-de-bico-grande,C
+Aves,Aves,Passeriformes,Polioptilidae,"Polioptila plumbea (Gmelin, 1788)",balança-rabo-de-chapéu-preto,C
+Aves,Aves,Passeriformes,Turdidae,"Turdus leucomelas Vieillot, 1818",sabiá-barranco,C
+Aves,Aves,Passeriformes,Mimidae,"Mimus gilvus (Vieillot, 1807)",sabiá-da-praia,C
+Aves,Aves,Passeriformes,Mimidae,"Mimus saturninus (Lichtenstein, 1823)",sabiá-do-campo,C
+Aves,Aves,Passeriformes,Coerebidae,"Coereba flaveola (Linnaeus, 1758)",cambacica,C
+Aves,Aves,Passeriformes,Thraupidae,"Tachyphonus rufus (Boddaert, 1783)",pipira-preta,C
+Aves,Aves,Passeriformes,Thraupidae,"Coryphospingus pileatus (Wied, 1821)",tico-tico-rei-cinza,C
+Aves,Aves,Passeriformes,Thraupidae,"Tangara cyanocephala (Statius Muller, 1776)",saíra-militar,DI
+Aves,Aves,Passeriformes,Thraupidae,"Tangara sayaca (Linnaeus, 1766)",sanhaçu-cinzento,C
+Aves,Aves,Passeriformes,Thraupidae,"Tangara palmarum (Wied, 1823)",sanhaçu-do-coqueiro,C
+Aves,Aves,Passeriformes,Thraupidae,"Tangara cayana (Linnaeus, 1766)",saíra-amarela,C
+Aves,Aves,Passeriformes,Thraupidae,"Paroaria dominicana (Linnaeus, 1758)",cardeal-do-nordeste,C
+Aves,Aves,Passeriformes,Thraupidae,"Dacnis cayana (Linnaeus, 1766)",saí-azul,C
+Aves,Aves,Passeriformes,Emberizidae,"Ammodramus humeralis (Bosc, 1792)",tico-tico-do-campo,C
+Aves,Aves,Passeriformes,Emberizidae,"Sicalis flaveola (Linnaeus, 1766)",canário-da-terra-verdadeiro,IN
+Aves,Aves,Passeriformes,Emberizidae,"Sporophila bouvreuil (Statius Muller, 1776)",caboclinho,DI
+Aves,Aves,Passeriformes,Parulidae,"Basileuterus culicivorus (Deppe, 1830)",pula-pula,C
+Aves,Aves,Passeriformes,Parulidae,"Myiothlypis flaveola Baird, 1865",canário-do-mato,C
+Aves,Aves,Passeriformes,Icteridae,"Procacicus solitarius (Vieillot, 1816)",iraúna-de-bico-branco,C
+Aves,Aves,Passeriformes,Icteridae,"Molothrus bonariensis (Gmelin, 1789)",vira-bosta,C
+Aves,Aves,Passeriformes,Fringillidae,"Euphonia chlorotica (Linnaeus, 1766)",fim-fim,C
+Aves,Aves,Passeriformes,Fringillidae,"Euphonia violacea (Linnaeus, 1758)",gaturamo-verdadeiro,DI
+Aves,Aves,Passeriformes,Estrildidae,"Estrilda astrild (Linnaeus, 1758)",bico-de-lacre,C
+Aves,Aves,Passeriformes,Passeridae,"Passer domesticus (Linnaeus, 1758)",pardal,C
+Mamíferos,Mammalia,Didelphimorphia,Didelphidae,"Didelphis albiventris Lund, 1840",timbu,C
+Mamíferos,Mammalia,Didelphimorphia,Didelphidae,"Caluromys philander (Linnaeus, 1758)",cuíca-lanosa,R
+Mamíferos,Mammalia,Didelphimorphia,Didelphidae,Marmosa sp.,rato-cachorro,C
+Mamíferos,Mammalia,Didelphimorphia,Didelphidae,"Micoureus demerarae (Thomas, 1905)",cuíca,C
+Mamíferos,Mammalia,Cingulata,Dasypodidae,"Euphractus sexcinctus (Linnaeus, 1758)",tatu-peba,C
+Mamíferos,Mammalia,Primates,Cebidae,"Callithrix jacchus (Linnaeus, 1758)",sagui-do-nordeste,C
+Mamíferos,Mammalia,Rodentia,Muridae,"Rattus rattus Linnaeus, 1758",rato-preto,C
+Mamíferos,Mammalia,Chiroptera,Phyllostomidae,"Glossophaga soricina (Pallas, 1766)",morcego,C
+Mamíferos,Mammalia,Chiroptera,Phyllostomidae,"Artibeus planirostris (Spix, 1823)",morcego,C
+Mamíferos,Mammalia,Chiroptera,Phyllostomidae,"Platyrrhinus lineatus (É. Geoffroy, 1810)",morcego,DI
+Mamíferos,Mammalia,Carnivora,Felidae,"Felis catus (Linnaeus, 1758)",gato-doméstico,C
+Mamíferos,Mammalia,Carnivora,Canidae,"Cerdocyon thous",cachorro-do-mato,C
+Mamíferos,Mammalia,Carnivora,Canidae,"Canis familiaris (Linnaeus, 1758)",cachorro-doméstico,C
