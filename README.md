@@ -238,66 +238,6 @@ Isso preserva compatibilidade com o uso existente e torna o programa útil para 
 
 `CSV_PATH` e `PASTA_SAIDA_DIR` são formados a partir de `BASE_DIR`, eliminando a dependência de um caminho específico da máquina.
 
-### 3. Separar dependências essenciais e opcionais
-
-`pandas` e `requests` são necessários para o coletor. `label-studio` não é importado pelo código atual e pode ser colocado em um arquivo opcional, como `requirements-labeling.txt`, caso seja usado somente na etapa de anotação. Isso reduz o tempo e a chance de falhas na instalação básica.
-
-### 4. Adicionar testes automatizados
-
-Comece por testes sem acesso à internet para:
-
-- limpeza de nomes com autoria, `sp.`, `spp.`, `cf.` e `aff.`;
-- filtro de categorias e limite do CSV;
-- seleção exata de táxons e sinônimos;
-- geração segura de nomes de pastas e arquivos;
-- retomada de downloads sem duplicação.
-
-Depois, simule as respostas HTTP com mocks. Assim, os testes não dependem da disponibilidade nem dos limites da API.
-
-### 5. Melhorar a confiabilidade dos downloads
-
-- reutilizar uma `requests.Session` para reduzir conexões repetidas;
-- aplicar retry também ao download das imagens;
-- validar `Content-Type` antes de salvar;
-- gravar primeiro em arquivo temporário e renomear somente após concluir;
-- registrar falhas em um arquivo para nova tentativa;
-- evitar `except Exception`, capturando erros de rede e disco separadamente.
-
-### 6. Salvar metadados e atribuição
-
-Além da imagem, grave um CSV ou JSON com o ID da observação, táxon, URL original, autor/fotógrafo, licença, data e localidade. Isso melhora a rastreabilidade, a reprodutibilidade e o cumprimento das condições de atribuição das licenças.
-
-### 7. Criar logs e relatório de execução
-
-Substitua os `print()` por `logging`, com níveis `INFO`, `WARNING` e `ERROR`. Salve um resumo com espécies processadas, imagens novas, duplicadas, falhas e tempo total.
-
-### 8. Validar a configuração no início
-
-Antes de iniciar downloads, valide:
-
-- existência e colunas do CSV;
-- valores aceitos para `TAMANHO`;
-- números positivos para limites e quantidades;
-- licenças configuradas;
-- permissão de escrita na pasta de saída.
-
-Isso faz o programa falhar cedo com mensagens mais claras.
-
-### 9. Evitar duplicatas reais
-
-Atualmente a prevenção usa apenas o nome do arquivo/ID da observação. Para datasets maiores, calcule um hash da imagem e mantenha um índice para detectar o mesmo conteúdo vindo de observações diferentes.
-
-### 10. Criar uma interface de busca
-
-Depois da busca por linha de comando, uma interface pequena com Streamlit pode oferecer campo de espécie, filtros, prévia dos resultados e botão de download. Essa etapa deve vir depois de separar a lógica de negócio da entrada por CSV, para que CLI e interface reutilizem as mesmas funções.
-
-## Ordem recomendada para começar
-
-1. Fazer um teste real com uma espécie e poucas imagens.
-2. Ampliar os testes para `limpar_nome()` e respostas da API.
-3. Registrar metadados e licenças junto às imagens.
-4. Melhorar retries, logs e downloads atômicos.
-5. Só então avaliar uma interface web e integração com ferramentas de anotação.
 
 ## Uso responsável
 
